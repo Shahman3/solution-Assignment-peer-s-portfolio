@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 62.5%;
+}
+
+.header {
+  height: 100vh;
+  background-color: rgb(42, 74, 113);
+}
+.nav {
+  background-color: black;
+  height: 2.2rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__item {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 1rem;
+}
+.nav__icons {
+  padding-left: 1.2rem;
+}
+.nav__items {
+  padding-right: 1.2rem;
+}
+.home {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 35vh;
+}
+.img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+.heading-home {
+  margin-top: 0.6rem;
+  font-size: 2rem;
+}
+.feature {
+  height: 100%;
+  background-color: #008000;
+  padding: 2rem 3rem;
+}
+
+.feature__menu {
+  width: 44%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+}
+.feature__item {
+  background-color: #fff;
+  border-radius: 4px;
+}
+.feature__item img {
+  width: 44vw;
+  height: 44vh;
+  border-radius: 4px;
+}
+.feature__content {
+  padding: 1rem;
+}
+.feature__p {
+  padding: 0.6rem 0;
+}
+.feature__a {
+  text-decoration: none;
+  color: black;
+}
+.feature h1 {
+  color: #fff;
+  padding-bottom: 1rem;
+  font-size: 1.8rem;
+}
+.form {
+  background-color: purple;
+  height: 100vh;
+  position: relative;
+}
+.form__content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  color: #fff;
+}
+.form h2 {
+  font-size: 1.6rem;
+  padding-top: 5rem;
+  padding-bottom: 1.2rem;
+}
+.form label {
+  font-size: 1rem;
+}
+input,
+select {
+  width: 50vw;
+  background-color: purple;
+  border: 1px solid #fff;
+  height: 40px;
+  color: #fff;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+.input__message {
+  height: 100px;
+}
+.form button {
+  background-color: rgb(177, 24, 177);
+  border: 1px solid #fff;
+
+  color: #fff;
+  width: 50vw;
+  font-size: 1.2rem;
+}
+.margin-l {
+  margin-left: 1rem;
+}
+footer {
+  color: #fff;
+  background-color: black;
+}
+footer p {
+  width: 10rem;
+  height: 2.2rem;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding-top: 0.4rem;
+}
